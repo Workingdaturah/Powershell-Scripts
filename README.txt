@@ -1,15 +1,15 @@
-If script does not work by dragging it to powershell******
+### If the script doesn't work by dragging it to PowerShell:
 
-Step1.- Open powershell in administrator privelidges 
-Step2.- Enter command "set-executionpolicy bypass" and accept when asked 
-Step3.- Change path using "cd c:/users/USERNAME/desktop"
-Step4.- Type first 3 initials of script then hit tab to auto complete then enter
+1. Open PowerShell with administrator privileges.
+2. Run the command `Set-ExecutionPolicy Bypass` and accept when prompted.
+3. Change the path using `cd C:/Users/USERNAME/Desktop`.
+4. Type the first 3 initials of the script, then hit Tab to autocomplete, and press Enter.
 
-
+```powershell
 Set-ExecutionPolicy Bypass
 
 Y
 
 cd $Env:UserProfile\Desktop
 
-./Repair-internet-Script.ps1
+./Repair-Internet-Script.ps1
